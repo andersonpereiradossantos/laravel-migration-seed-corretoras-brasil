@@ -6,7 +6,7 @@ Arquivos de migração e inserção (migrations e seeds) Laravel de todas as cor
 Na seguinte estrutura:
 
 ##### Corretora
-- id (primary key)
+- Id (primary key)
 - CNPJ (cnpj)
 - Nome (nome)
 
@@ -35,4 +35,5 @@ $easynvest = Corretora::where('cnpj', '062169875000179')->first();
 Anderson Pereira dos Santos
 
 [Linkedin](https://www.linkedin.com/in/andersonpereirasantos)
+
 [Github](https://github.com/andersonpereiradossantos)
