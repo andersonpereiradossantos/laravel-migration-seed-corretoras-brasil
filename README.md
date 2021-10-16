@@ -10,7 +10,7 @@ Na seguinte estrutura:
 - CNPJ (cnpj)
 - Nome (nome)
 
-# Como executar o projeto
+## Como executar o projeto
 Pré-requisitos: Laravel 5.X, 6.X, 7.X, 8.x ou superior
 
 ```bash
@@ -23,7 +23,7 @@ git clone https://github.com/andersonpereiradossantos/laravel-migration-seed-cor
 php artisan migrate --seed
 ```
 
-# Exemplos de utilização com o Eloquent
+## Exemplos de utilização com o Eloquent
 ```php
 // Obter todos os bancos ordenados por nome
 $corretoras = Corretora::all()->sortBy('nome');
@@ -31,7 +31,11 @@ $corretoras = Corretora::all()->sortBy('nome');
 // Obter corretora específica através do cnpj (062169875000179 - Easynvest)
 $easynvest = Corretora::where('cnpj', '062169875000179')->first();
 ```
-# Autor
+
+## Licença
+Este projeto é compartilhado sob a licença do MIT. Isso significa que você pode modificá-lo e usá-lo como quiser, mesmo para uso comercial. Se você gostou, considere marcar uma ⭐️.
+
+## Autor
 Anderson Pereira dos Santos
 
 [Linkedin](https://www.linkedin.com/in/andersonpereirasantos)
